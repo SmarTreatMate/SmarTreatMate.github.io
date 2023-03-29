@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://dummyimage.com/300x100/74b9ff/FFFFFF.png&text=Using%20Geographic%20Location-Based%20Public%20Health%20Features%20in%20Survival%20Analysis" alt="Sample Text" style="font-size: 24px;">
+  <img src="https://dummyimage.com/300x100/74b9ff/FFFFFF.png&text=Using%20Geographic%20Location-Based%20Public%20Health%20Features%20in%20Survival%20Analysis" alt="Sample Text" style="font-size: 72px;">
 </p>
 
 
