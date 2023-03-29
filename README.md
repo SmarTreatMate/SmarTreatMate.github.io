@@ -18,12 +18,27 @@
 
 <p style="color:#2d3436;">&nbsp;&nbsp;This repository contains the code and data for the paper titled "Using Geographic Location-Based Public Health Features in Survival Analysis" by Navid Seidi, Ardhendu Tripathy, and Sajal Das.</p>
 
-<p style="color:#0984e3;padding-left: 30px;"><strong>Table of Contents</strong></p>
-<ul style="color:#a29bfe;padding-left: 60px;">
-  <li><a href="#abstract">Abstract</a></li>
-  <li><a href="#code-and-data">Code and Data</a></li>
-  <li><a href="#reproducing-the-results">Reproducing the Results</a></li>
-</ul>
+<style>
+.table-of-contents {
+  position: fixed;
+  left: 20px;
+  color: #74b9ff;
+}
+
+.table-of-contents ul {
+  padding-left: 20px;
+}
+</style>
+
+<div class="table-of-contents">
+  <p><strong>Table of Contents</strong></p>
+  <ul>
+    <li><a href="#abstract">Abstract</a></li>
+    <li><a href="#code-and-data">Code and Data</a></li>
+    <li><a href="#reproducing-the-results">Reproducing the Results</a></li>
+  </ul>
+</div>
+
 
 <p id="abstract" style="background-color:#a5c5ff; padding: 10px; color:#2d3436; border-radius: 10px;"><strong>Abstract</strong></p>
 <p class="custom-paragraph">&nbsp;&nbsp;Time elapsed till an event of interest is often modeled using the survival analysis methodology, which estimates a survival score based on the input features. There is a resurgence of interest in developing more accurate prediction models for time-to-event prediction in personalized healthcare using modern tools such as neural networks. Higher quality features and more frequent observations improve the predictions for a patient, however, the impact of including a patient's geographic location-based public health statistics on individual predictions has not been studied.
