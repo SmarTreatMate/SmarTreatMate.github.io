@@ -3,7 +3,7 @@
 <p style="color:#2d3436;">This repository contains the code and data for the paper titled "Using Geographic Location-Based Public Health Features in Survival Analysis" by Navid Seidi, Ardhendu Tripathy, and Sajal Das.</p>
 
 <p style="color:#0984e3;padding-left: 30px;"><strong>Table of Contents</strong></p>
-<ul style="color:#a29bfe;padding-left: 40px;">
+<ul style="color:#a29bfe;padding-left: 60px;">
   <li><a href="#abstract">Abstract</a></li>
   <li><a href="#code-and-data">Code and Data</a></li>
   <li><a href="#reproducing-the-results">Reproducing the Results</a></li>
