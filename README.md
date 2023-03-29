@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://via.placeholder.com/150x50/74b9ff/FFFFFF/?text=Geographical%20Features%20in%20Survival%20Analysis" alt="Geographical Features in Survival Analysis">
+  <img src="https://via.placeholder.com/500x50/74b9ff/FFFFFF/?text=Geographical%20Features%20in%20Survival%20Analysis" alt="Geographical Features in Survival Analysis">
 </p>
 
 <p style="color:#74b9ff;">This repository contains the code and data for the paper titled "Using Geographic Location-Based Public Health Features in Survival Analysis" by Navid Seidi, Ardhendu Tripathy, and Sajal Das.</p>
