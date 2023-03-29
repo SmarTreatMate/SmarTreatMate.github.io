@@ -5,7 +5,7 @@
 }
 
 .custom-paragraph::first-line {
-  text-indent: 30px;
+  text-indent: 60px;
 }
 
 .custom-paragraph::first-letter {
