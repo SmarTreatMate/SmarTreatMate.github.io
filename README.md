@@ -1,4 +1,33 @@
 <style>
+.table-of-contents {
+  position: fixed;
+  left: 20px;
+  width: 200px;
+  padding: 10px;
+  background-color: #a5c5ff;
+  border: 2px solid #74b9ff;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.table-of-contents ul {
+  padding-left: 20px;
+}
+
+.main-content {
+  margin-left: 240px;
+}
+
+.separator {
+  position: fixed;
+  left: 230px;
+  top: 0;
+  bottom: 0;
+  border-left: 2px solid #74b9ff;
+}
+  
 .custom-paragraph {
   color: #2d3436;
   text-align: justify;
@@ -14,30 +43,25 @@
 }
 </style>
 
-<p id="name" style="background-color:#a5c5ff; padding: 10px; color:#2d3436; border-radius: 10px;"><strong>Using Geographic Location-Based Public Health Features in Survival Analysis</strong></p>
-
-<p style="color:#2d3436;">&nbsp;&nbsp;This repository contains the code and data for the paper titled "Using Geographic Location-Based Public Health Features in Survival Analysis" by Navid Seidi, Ardhendu Tripathy, and Sajal Das.</p>
-
-<style>
-.table-of-contents {
-  position: fixed;
-  left: 20px;
-  color: #74b9ff;
-}
-
-.table-of-contents ul {
-  padding-left: 20px;
-}
-</style>
-
 <div class="table-of-contents">
-  <p><strong>Table of Contents</strong></p>
+  <p>Table of Contents</p>
   <ul>
     <li><a href="#abstract">Abstract</a></li>
     <li><a href="#code-and-data">Code and Data</a></li>
     <li><a href="#reproducing-the-results">Reproducing the Results</a></li>
   </ul>
 </div>
+
+<div class="separator"></div>
+
+
+
+
+<div class="main-content">
+  
+<p id="name" style="background-color:#a5c5ff; padding: 10px; color:#2d3436; border-radius: 10px;"><strong>Using Geographic Location-Based Public Health Features in Survival Analysis</strong></p>
+
+<p style="color:#2d3436;">&nbsp;&nbsp;This repository contains the code and data for the paper titled "Using Geographic Location-Based Public Health Features in Survival Analysis" by Navid Seidi, Ardhendu Tripathy, and Sajal Das.</p>
 
 
 <p id="abstract" style="background-color:#a5c5ff; padding: 10px; color:#2d3436; border-radius: 10px;"><strong>Abstract</strong></p>
@@ -51,3 +75,4 @@ Our results indicate the utility of geographic location-based public health feat
 
 <p id="reproducing-the-results" style="background-color:#a5c5ff; padding: 10px; color:#2d3436; border-radius: 10px;"><strong>Reproducing the Results</strong></p>
 <p style="color:#2d3436;">To reproduce the results in the paper, first clone the repository:</p>
+</div>
