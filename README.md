@@ -1,10 +1,12 @@
-# SmarTreatMate.github.io
 # Geographical Features in Survival Analysis
 
-This repository contains the code and data for the paper titled "Geographical Features in Survival Analysis" by Navid Seidi, Ardhendu Tripathy and Sajal Das.
+This repository contains the code and data for the paper titled "Using Geographic Location-Based Public Health Features in Survival Analysis" by Navid Seidi, Ardhendu Tripathy and Sajal Das.
 
 ## Abstract
-Survival analysis is a widely used statistical method in healthcare that predicts the time it takes for an event of interest to occur. In this paper, we explore how incorporating geographical location-based public health features can improve the accuracy of survival analysis models. We demonstrate this approach on datasets of cancer patients in ten US states and show that the inclusion of these features leads to significant improvements in the concordance index. We also perform t-tests to show that these improvements are statistically significant.
+Time elapsed till an event of interest is often modeled using the survival analysis methodology, which estimates a survival score based on the input features. There is a resurgence of interest in developing more accurate prediction models for time-to-event prediction in personalized healthcare using modern tools such as neural networks. Higher quality features and more frequent observations improve the predictions for a patient, however, the impact of including a patient's geographic location-based public health statistics on individual predictions has not been studied.
+This paper proposes a complementary improvement to survival analysis models by incorporating public health statistics in the input features. We show that including geographic location-based public health information results in a statistically significant improvement in the concordance index evaluated on the Surveillance, Epidemiology, and End Results (SEER) dataset containing nationwide cancer incidence data. 
+The improvement holds for both the standard Cox proportional hazards model and the state-of-the-art Deep Survival Machines model. 
+Our results indicate the utility of geographic location-based public health features in survival analysis.
 
 ## Code and Data
 The `code` directory contains the Python code used to generate the results in the paper. The `data` directory contains the datasets used in the analysis.
