@@ -5,8 +5,7 @@
 }
 
 .custom-paragraph::first-line {
-  color: #2c3e50;
-  text-indent: 20px;
+  text-indent: 30px;
 }
 
 .custom-paragraph::first-letter {
