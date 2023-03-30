@@ -80,17 +80,16 @@ This paper proposes a complementary improvement to survival analysis models by i
 The improvement holds for both the standard Cox proportional hazards model and the state-of-the-art Deep Survival Machines model. 
 Our results indicate the utility of geographic location-based public health features in survival analysis.</p>
 
-  
 <p id="survival_analysis" style="background-color:#a5c5ff; padding: 10px; color:#2d3436; border-radius: 10px;"><strong>What is Survival Analysis?</strong></p>
 <p class="custom-paragraph">&nbsp;&nbsp;The term "Survival Analysis" refers to a statistical methodology for the analysis of data, in which the outcome variable of interest is the probability of an <strong>Event</strong> occurring in each <strong>Time</strong> frame. By <strong>Time</strong>, we mean years, months, weeks, or days from the beginning of the follow-up of an individual until one of the desired events. Alternatively, time can refer to the age of an individual when an event occurs. Furthermore, by <strong>Event</strong>, we mean any change in the health status of an individual. This could be defined as disease incidence, relapse from remission, recovery (e.g., return to work), death, or any designated experience of interest that may happen to an individual <sup><a href="#SA">[1]</a></sup>.</p>
 <p class="normal-paragraph">
   This type of problem is distinct from a standard regression due to the <em>censoring of event times</em>. <strong>Censoring</strong> happens when we have some knowledge about an individual's survival period but do not know the precise survival time. As illustrated in Fig. <a href="#fig-censoring">1</a>, there are three types of censored data in any survival analysis study.
-</p>
 <ul>
   <li><strong>Right-censored:</strong> The event did not occur during the study, or the actual event time is equal to or greater than the observed survival time (p<sub>2</sub>, p<sub>3</sub> and p<sub>4</sub> in Fig. <a href="#fig-censoring">1</a>).</li>
   <li><strong>Left-censored:</strong> In some cases, "true survival time is less than or equal to the observed survival time" <sup><a href="#SA">[1]</a></sup>. It indicates that a person who is left-censored at time t has experienced an event between the beginning of time (time 0) and time t, but the exact timing of the event is unknown. In Fig. <a href="#fig-censoring">1</a> the event has been observed for p<sub>5</sub>, but the accurate time is not clear. The only known fact is that the event time is less than the time of ending the study.</li>
   <li><strong>Interval-censored:</strong> p<sub>6</sub> in Fig. <a href="#fig-censoring">1</a> has left the study sometime before the ending time and rejoined it again. Thus, it is impossible to make a comprehensive observation, and the actual event time is within a given time interval.</li>
 </ul>
+</p>
 
 <div class="img-style">
 <figure>
@@ -100,15 +99,17 @@ Our results indicate the utility of geographic location-based public health feat
 </div>
 <p class="normal-paragraph">For the analysis, we start by describing the Survival Function; the probability that a person will outlive a given period represented by S(t) as stated in equation (1). Moreover, equation (2) shows the Hazard Function, λ(t), which is the instantaneous probability per unit of the time that the event will occur:</p>
 
-<p class="normal-paragraph"><em>Equation 1:</em></p>
+<p class="normal-paragraph"><em>Equation 1:</em>
 <pre>
     S(t) = Pr(T > t)
 </pre>
+</p>
 
-<p class="normal-paragraph"><em>Equation 2:</em></p>
+<p class="normal-paragraph"><em>Equation 2:</em>
 <pre>
     λ(t) = lim(δ → 0) [Pr(t ≤ T < t + δ | T ≥ t) / δ]
 </pre>
+</p>
 
 <p class="normal-paragraph">Given that a person has survived up to time t, the hazard function is the probability that they will not survive an additional tiny period of time, δ. It indicates that those with a higher hazard value are at a greater risk of experiencing the event.</p>
 
@@ -118,10 +119,11 @@ Our results indicate the utility of geographic location-based public health feat
 
 <p class="normal-paragraph">Let x<sub>i</sub> denote the vector features for individual i in the dataset. The hazard function for the Cox proportional hazards model is:</p>
 
-<p class="normal-paragraph"><em>Equation 3:</em></p>
+<p class="normal-paragraph"><em>Equation 3:</em>
 <pre>
     λ(t) = λ<sub>0</sub>(t) exp(β<sup>T</sup> x<sub>i</sub>)
 </pre>
+</p>
 
 <p class="normal-paragraph">where λ<sub>0</sub>(t) is defined as the baseline hazard function. β is a vector in the same dimension with x<sub>i</sub>. The Cox model may be modified if there is a reason to anticipate that the baseline hazard follows a certain shape. In this instance, the baseline hazard λ<sub>0</sub>(t) is substituted with a provided function. For example, if the baseline hazard function is a Weibull function of time, then it results in the 'Weibull proportional hazard model'<sup><a href="#Weibull">[3]</a></sup><sup><a href="#kumar1994proportional">[4]</a></sup>.</p>
 
