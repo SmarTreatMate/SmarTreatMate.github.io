@@ -17,7 +17,7 @@
 }
 
 .main-content {
-  margin-left: 290px;
+  left: 290px;
 }
 
 .separator {
