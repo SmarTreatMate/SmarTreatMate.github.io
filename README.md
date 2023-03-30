@@ -55,6 +55,7 @@
     <li><a href="#code-and-data">Code and Data</a></li>
     <li><a href="#how_to_use">How to use</a></li>
     <li><a href="#citation">Citation</a></li>
+    <li><a href="#references">References</a></li>
   </ul>
 </div>
 
@@ -74,7 +75,7 @@ Our results indicate the utility of geographic location-based public health feat
 
   
 <p id="survival_analysis" style="background-color:#a5c5ff; padding: 10px; color:#2d3436; border-radius: 10px;"><strong>What is Survival Analysis?</strong></p>
-<p class="custom-paragraph">&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p class="custom-paragraph">&nbsp;&nbsp;The term "Survival Analysis" refers to a statistical methodology for the analysis of data, in which the outcome variable of interest is the probability of an \textit{Event} occurring in each \textit{Time} frame. By \textbf{Time}, we mean years, months, weeks, or days from the beginning of the follow-up of an individual until one of the desired events. Alternatively, time can refer to the age of an individual when an event occurs. Furthermore, by \textbf{Event}, we mean any change in the health status of an individual. This could be defined as disease incidence, relapse from remission, recovery (e.g., return to work), death, or any designated experience of interest that may happen to an individual <sup><a href="SA">[1]</a></sup>.</p>
 
 <div class="img-style">  
 <img src="https://raw.githubusercontent.com/SmarTreatMate/SmarTreatMate.github.io/main/survival%20analysis.png" alt="A description of the image" width="650" height="325">
@@ -88,4 +89,13 @@ Our results indicate the utility of geographic location-based public health feat
 
 <p id="citation" style="background-color:#a5c5ff; padding: 10px; color:#2d3436; border-radius: 10px;"><strong>Citation</strong></p>
 <p class="custom-paragraph">&nbsp;&nbsp;To use the code, first clone the repository:</p>
+</div>
+
+
+<div id="references">
+  <h2>References</h2>
+  <ol>
+    <li id="SA">Kleinbaum, David G., and Mitchel Klein. Survival analysis a self-learning text. Springer, 1996.</li>
+    <li id="ref2">Author B. (Year). Title of the book. Publisher.</li>
+  </ol>
 </div>
