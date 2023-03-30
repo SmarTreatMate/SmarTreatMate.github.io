@@ -56,7 +56,7 @@
 
 <div class="separator"></div>
 
-  
+<div class="main-content">
 <p id="name" style="background-color:#a5c5ff; padding: 10px; color:#2d3436; border-radius: 10px;"><strong>Using Geographic Location-Based Public Health Features in Survival Analysis</strong></p>
 
 <p class="custom-paragraph">&nbsp;&nbsp;This repository contains the code and data for the paper titled "Using Geographic Location-Based Public Health Features in Survival Analysis" by Navid Seidi, Ardhendu Tripathy, and Sajal Das.</p>
@@ -79,3 +79,4 @@ Our results indicate the utility of geographic location-based public health feat
 
 <p id="how_to_use" style="background-color:#a5c5ff; padding: 10px; color:#2d3436; border-radius: 10px;"><strong>How to use</strong></p>
 <p class="custom-paragraph">&nbsp;&nbsp;To use the code, first clone the repository:</p>
+</div>
