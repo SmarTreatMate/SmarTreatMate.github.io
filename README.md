@@ -88,7 +88,7 @@ Our results indicate the utility of geographic location-based public health feat
 <p class="custom-paragraph">&nbsp;&nbsp;To use the code, first clone the repository:</p>
 
 <p id="citation" style="background-color:#a5c5ff; padding: 10px; color:#2d3436; border-radius: 10px;"><strong>Citation</strong></p>
-<p class="custom-paragraph">&nbsp;&nbsp;To use the code, first clone the repository:</p>
+<p class="custom-paragraph">&nbsp;&nbsp;This project has been published in IEEE/ACM CHASE'23. The following is the citation:</p>
 
 
 <p id="references" style="background-color:#a5c5ff; padding: 10px; color:#2d3436; border-radius: 10px;"><strong>References</strong></p>
