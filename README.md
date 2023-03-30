@@ -35,14 +35,12 @@
 .normal-paragraph {
   color: #2d3436;
   padding-left: 10px;
-  padding-right: 10px;
   text-align: justify;
 }
   
 .custom-paragraph {
   color: #2d3436;
   padding-left: 10px;
-  padding-right: 10px;
   text-align: justify;
 }
 
