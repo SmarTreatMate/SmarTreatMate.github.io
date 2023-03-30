@@ -23,7 +23,7 @@
 .separator {
   position: fixed;
   left: 280px;
-  top: 50px;
+  top: 80px;
   bottom: 0;
   border-left: 2px solid #74b9ff;
 }
