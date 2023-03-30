@@ -3,6 +3,10 @@
   text-align: center;
 }
   
+li {
+      text-align: justify;
+}
+  
 .table-of-contents {
   position: fixed;
   left: 20px;
