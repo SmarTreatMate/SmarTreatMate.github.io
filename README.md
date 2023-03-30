@@ -107,7 +107,7 @@ Our results indicate the utility of geographic location-based public health feat
 
 <p>It is possible to construct these functions based on the most recent information regarding event occurrences, the event time for each individual in the datasets, and the related attributes associated with each unique patient. The above features are referred to as covariates and can be either Categorical or Numerical.</p>
 
-<p>Although the survival function is theoretically a smooth curve, it is most commonly approximated using the Kaplan–Meier (K.M.) curve<sup><a href="#KM">[1]</a></sup> because of its simplicity. The Kaplan-Meier curve is a non-parametric method used to estimate the survival probability of a population over time based on censored data. It is commonly used to illustrate the estimated survival probability over time for a population or group of individuals. Kaplan–Meier curve is the most effective model whenever the covariate is categorical (e.g., medication vs. placebo) or when the covariate takes a small number of values (e.g., drug dosages 0, 20, 50, and 100 mg/day) that may be considered categorical. The K.M. curve is not as practical when dealing with quantitative factors such as gene expression, white blood cell count, or age. Cox proportional hazards regression analysis is an alternate approach when dealing with quantitative predictor variables. Moreover, the CoxPH model may be used with categorical predictor variables, which can be represented as dummy variables or as a binary indicator (0,1).</p>
+<p>Although the survival function is theoretically a smooth curve, it is most commonly approximated using the Kaplan–Meier (K.M.) curve<sup><a href="#KM">[2]</a></sup> because of its simplicity. The Kaplan-Meier curve is a non-parametric method used to estimate the survival probability of a population over time based on censored data. It is commonly used to illustrate the estimated survival probability over time for a population or group of individuals. Kaplan–Meier curve is the most effective model whenever the covariate is categorical (e.g., medication vs. placebo) or when the covariate takes a small number of values (e.g., drug dosages 0, 20, 50, and 100 mg/day) that may be considered categorical. The K.M. curve is not as practical when dealing with quantitative factors such as gene expression, white blood cell count, or age. Cox proportional hazards regression analysis is an alternate approach when dealing with quantitative predictor variables. Moreover, the CoxPH model may be used with categorical predictor variables, which can be represented as dummy variables or as a binary indicator (0,1).</p>
 
 <p>Let x<sub>i</sub> denote the vector features for individual i in the dataset. The hazard function for the Cox proportional hazards model is:</p>
 
@@ -116,7 +116,7 @@ Our results indicate the utility of geographic location-based public health feat
     λ(t) = λ<sub>0</sub>(t) exp(β<sup>T</sup> x<sub>i</sub>)
 </pre>
 
-<p>where λ<sub>0</sub>(t) is defined as the baseline hazard function. β is a vector in the same dimension with x<sub>i</sub>. The Cox model may be modified if there is a reason to anticipate that the baseline hazard follows a certain shape. In this instance, the baseline hazard λ<sub>0</sub>(t) is substituted with a provided function. For example, if the baseline hazard function is a Weibull function of time, then it results in the 'Weibull proportional hazard model'<sup><a href="#barrett2014weibull">[2]</a></sup><sup><a href="#kumar1994proportional">[3]</a></sup>.</p>
+<p>where λ<sub>0</sub>(t) is defined as the baseline hazard function. β is a vector in the same dimension with x<sub>i</sub>. The Cox model may be modified if there is a reason to anticipate that the baseline hazard follows a certain shape. In this instance, the baseline hazard λ<sub>0</sub>(t) is substituted with a provided function. For example, if the baseline hazard function is a Weibull function of time, then it results in the 'Weibull proportional hazard model'<sup><a href="#Weibull">[3]</a></sup><sup><a href="#kumar1994proportional">[4]</a></sup>.</p>
 
 <p id="code-and-data" style="background-color:#a5c5ff; padding: 10px; color:#2d3436; border-radius: 10px;"><strong>Code and Data</strong></p>
 <p class="custom-paragraph">&nbsp;&nbsp;The <code>code</code> directory contains the Python code used to generate the results in the paper. The <code>data</code> directory contains the datasets used in the analysis.</p>
@@ -132,6 +132,8 @@ Our results indicate the utility of geographic location-based public health feat
   <ol>
     <li id="SA">Kleinbaum, David G., and Mitchel Klein. Survival analysis a self-learning text. Springer, 1996.</li>
     <li id="KM">Kaplan, E. L., and Paul Meier. “Nonparametric Estimation from Incomplete Observations.” Journal of the American Statistical Association 53, no. 282 (1958): 457–81. https://doi.org/10.2307/2281868.</li>
+    <li id="Weibull">Barrett, James. "Weibull-Cox proportional hazard model." Institute of Mathmatical and Molecular Biomedicine (2014): 1-7.</li>
+    <li id="kumar1994proportional">Kumar, Dhananjay, and Bengt Klefsjö. "Proportional hazards model: a review." Reliability Engineering & System Safety 44, no. 2 (1994): 177-188.</li>
     <li id="ref2">Author B. (Year). Title of the book. Publisher.</li>
   </ol>
 </div>
