@@ -1,6 +1,6 @@
 <style>
 .img-style {
-  align: "center";
+  text-align: "center";
 }
   
 .table-of-contents {
