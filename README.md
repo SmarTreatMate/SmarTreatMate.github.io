@@ -72,6 +72,11 @@ This paper proposes a complementary improvement to survival analysis models by i
 The improvement holds for both the standard Cox proportional hazards model and the state-of-the-art Deep Survival Machines model. 
 Our results indicate the utility of geographic location-based public health features in survival analysis.</p>
 
+  
+<p id="survival_analysis" style="background-color:#a5c5ff; padding: 10px; color:#2d3436; border-radius: 10px;"><strong>Reproducing the Results</strong></p>
+<p class="custom-paragraph">&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>  
+  
 <p id="code-and-data" style="background-color:#a5c5ff; padding: 10px; color:#2d3436; border-radius: 10px;"><strong>Code and Data</strong></p>
 <p class="custom-paragraph">&nbsp;&nbsp;The <code>code</code> directory contains the Python code used to generate the results in the paper. The <code>data</code> directory contains the datasets used in the analysis.</p>
 
@@ -79,7 +84,3 @@ Our results indicate the utility of geographic location-based public health feat
 <p class="custom-paragraph">&nbsp;&nbsp;To use the code, first clone the repository:</p>
 </div>
 
-
-<p id="survival_analysis" style="background-color:#a5c5ff; padding: 10px; color:#2d3436; border-radius: 10px;"><strong>Reproducing the Results</strong></p>
-<p class="custom-paragraph">&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</div>
