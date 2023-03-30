@@ -38,7 +38,7 @@
 }
 
 .custom-paragraph::first-letter {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: normal;
 }
 </style>
@@ -61,7 +61,7 @@
   
 <p id="name" style="background-color:#a5c5ff; padding: 10px; color:#2d3436; border-radius: 10px;"><strong>Using Geographic Location-Based Public Health Features in Survival Analysis</strong></p>
 
-<p style="color:#2d3436;">&nbsp;&nbsp;This repository contains the code and data for the paper titled "Using Geographic Location-Based Public Health Features in Survival Analysis" by Navid Seidi, Ardhendu Tripathy, and Sajal Das.</p>
+<p class="custom-paragraph">&nbsp;&nbsp;This repository contains the code and data for the paper titled "Using Geographic Location-Based Public Health Features in Survival Analysis" by Navid Seidi, Ardhendu Tripathy, and Sajal Das.</p>
 
 
 <p id="abstract" style="background-color:#a5c5ff; padding: 10px; color:#2d3436; border-radius: 10px;"><strong>Abstract</strong></p>
