@@ -131,6 +131,7 @@ Our results indicate the utility of geographic location-based public health feat
 <p id="references" style="background-color:#a5c5ff; padding: 10px; color:#2d3436; border-radius: 10px;"><strong>References</strong></p>
   <ol>
     <li id="SA">Kleinbaum, David G., and Mitchel Klein. Survival analysis a self-learning text. Springer, 1996.</li>
+    <li id="KM">Kaplan, E. L., and Paul Meier. “Nonparametric Estimation from Incomplete Observations.” Journal of the American Statistical Association 53, no. 282 (1958): 457–81. https://doi.org/10.2307/2281868.</li>
     <li id="ref2">Author B. (Year). Title of the book. Publisher.</li>
   </ol>
 </div>
