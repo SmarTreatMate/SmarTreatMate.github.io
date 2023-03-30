@@ -2,7 +2,7 @@
 .table-of-contents {
   position: fixed;
   left: 20px;
-  width: 200px;
+  width: 300px;
   padding: 10px;
   background-color: #a5c5ff;
   border: 2px solid #74b9ff;
