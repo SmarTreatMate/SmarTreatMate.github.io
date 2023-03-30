@@ -76,9 +76,12 @@ Our results indicate the utility of geographic location-based public health feat
   
 <p id="survival_analysis" style="background-color:#a5c5ff; padding: 10px; color:#2d3436; border-radius: 10px;"><strong>What is Survival Analysis?</strong></p>
 <p class="custom-paragraph">&nbsp;&nbsp;The term "Survival Analysis" refers to a statistical methodology for the analysis of data, in which the outcome variable of interest is the probability of an <strong>Event</strong> occurring in each <strong>Time</strong> frame. By <strong>Time</strong>, we mean years, months, weeks, or days from the beginning of the follow-up of an individual until one of the desired events. Alternatively, time can refer to the age of an individual when an event occurs. Furthermore, by <strong>Event</strong>, we mean any change in the health status of an individual. This could be defined as disease incidence, relapse from remission, recovery (e.g., return to work), death, or any designated experience of interest that may happen to an individual <sup><a href="#SA">[1]</a></sup>.</p>
-
+<p>
+  This type of problem is distinct from a standard regression due to the <em>censoring of event times</em>. <strong>Censoring</strong> happens when we have some knowledge about an individual's survival period but do not know the precise survival time. As illustrated in Fig. <a href="#fig-censoring">1</a>, there are three types of censored data in any survival analysis study.
+</p>
+  
 <div class="img-style">  
-<img src="https://raw.githubusercontent.com/SmarTreatMate/SmarTreatMate.github.io/main/survival%20analysis.png" alt="A description of the image" width="650" height="325">
+<img id="fig-censoring" src="https://raw.githubusercontent.com/SmarTreatMate/SmarTreatMate.github.io/main/survival%20analysis.png" alt="A description of the image" width="650" height="325">
 </div>
 
 <p id="code-and-data" style="background-color:#a5c5ff; padding: 10px; color:#2d3436; border-radius: 10px;"><strong>Code and Data</strong></p>
