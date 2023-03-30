@@ -42,7 +42,7 @@
 }
 
 .custom-paragraph::first-letter {
-  font-size: 22px;
+  font-size: 21px;
   font-weight: normal;
 }
 </style>
