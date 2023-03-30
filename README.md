@@ -80,8 +80,11 @@ Our results indicate the utility of geographic location-based public health feat
   This type of problem is distinct from a standard regression due to the <em>censoring of event times</em>. <strong>Censoring</strong> happens when we have some knowledge about an individual's survival period but do not know the precise survival time. As illustrated in Fig. <a href="#fig-censoring">1</a>, there are three types of censored data in any survival analysis study.
 </p>
   
-<div class="img-style">  
+<div class="img-style">
+<figure>
 <img id="fig-censoring" src="https://raw.githubusercontent.com/SmarTreatMate/SmarTreatMate.github.io/main/survival%20analysis.png" alt="A description of the image" width="650" height="325">
+<figcaption>Fig1. This is the caption for the image.</figcaption>
+</figure>
 </div>
 
 <p id="code-and-data" style="background-color:#a5c5ff; padding: 10px; color:#2d3436; border-radius: 10px;"><strong>Code and Data</strong></p>
