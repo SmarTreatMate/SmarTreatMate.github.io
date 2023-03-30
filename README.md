@@ -81,7 +81,7 @@ Our results indicate the utility of geographic location-based public health feat
 </p>
 <ul>
   <li><strong>Right-censored:</strong> The event did not occur during the study, or the actual event time is equal to or greater than the observed survival time (p<sub>2</sub>, p<sub>3</sub> and p<sub>4</sub> in Fig. <a href="#fig-censoring">1</a>).</li>
-  <li><strong>Left-censored:</strong> In some cases, "true survival time is less than or equal to the observed survival time" <sup><a href="#refbib1">[1]</a></sup>. It indicates that a person who is left-censored at time t has experienced an event between the beginning of time (time 0) and time t, but the exact timing of the event is unknown. In Fig. <a href="#fig-censoring">1</a> the event has been observed for p<sub>5</sub>, but the accurate time is not clear. The only known fact is that the event time is less than the time of ending the study.</li>
+  <li><strong>Left-censored:</strong> In some cases, "true survival time is less than or equal to the observed survival time" <sup><a href="#SA">[1]</a></sup>. It indicates that a person who is left-censored at time t has experienced an event between the beginning of time (time 0) and time t, but the exact timing of the event is unknown. In Fig. <a href="#fig-censoring">1</a> the event has been observed for p<sub>5</sub>, but the accurate time is not clear. The only known fact is that the event time is less than the time of ending the study.</li>
   <li><strong>Interval-censored:</strong> p<sub>6</sub> in Fig. <a href="#fig-censoring">1</a> has left the study sometime before the ending time and rejoined it again. Thus, it is impossible to make a comprehensive observation, and the actual event time is within a given time interval.</li>
 </ul>
 
