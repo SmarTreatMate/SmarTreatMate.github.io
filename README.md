@@ -2,7 +2,7 @@
 .table-of-contents {
   position: fixed;
   left: 20px;
-  width: 300px;
+  width: 250px;
   padding: 10px;
   background-color: #a5c5ff;
   border: 2px solid #74b9ff;
@@ -22,7 +22,7 @@
 
 .separator {
   position: fixed;
-  left: 230px;
+  left: 280px;
   top: 0;
   bottom: 0;
   border-left: 2px solid #74b9ff;
