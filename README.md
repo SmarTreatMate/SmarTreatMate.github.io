@@ -91,11 +91,8 @@ Our results indicate the utility of geographic location-based public health feat
 <p class="custom-paragraph">&nbsp;&nbsp;To use the code, first clone the repository:</p>
 </div>
 
-
-<div id="references">
-  <h2>References</h2>
+<p id="references" style="background-color:#a5c5ff; padding: 10px; color:#2d3436; border-radius: 10px;"><strong>References</strong></p>
   <ol>
     <li id="SA">Kleinbaum, David G., and Mitchel Klein. Survival analysis a self-learning text. Springer, 1996.</li>
     <li id="ref2">Author B. (Year). Title of the book. Publisher.</li>
   </ol>
-</div>
