@@ -83,7 +83,7 @@ Our results indicate the utility of geographic location-based public health feat
 <div class="img-style">
 <figure>
 <img id="fig-censoring" src="https://raw.githubusercontent.com/SmarTreatMate/SmarTreatMate.github.io/main/survival%20analysis.png" alt="A description of the image" width="650" height="325">
-<figcaption>Fig1. This is the caption for the image.</figcaption>
+<figcaption>Fig1. Various types of censoring in survival analysis.</figcaption>
 </figure>
 </div>
 
