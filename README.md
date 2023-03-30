@@ -17,7 +17,7 @@
 }
 
 .main-content {
-  left: 290px;
+  left: 350px;
 }
 
 .separator {
