@@ -47,8 +47,10 @@
   <p>Table of Contents</p>
   <ul>
     <li><a href="#abstract">Abstract</a></li>
+    <li><a href="#survival_analysis">What is Survival Analysis?</a></li>
     <li><a href="#code-and-data">Code and Data</a></li>
-    <li><a href="#reproducing-the-results">Reproducing the Results</a></li>
+    <li><a href="#how_to_use">How to use</a></li>
+    <li><a href="#citation">Citation</a></li>
   </ul>
 </div>
 
@@ -71,8 +73,13 @@ The improvement holds for both the standard Cox proportional hazards model and t
 Our results indicate the utility of geographic location-based public health features in survival analysis.</p>
 
 <p id="code-and-data" style="background-color:#a5c5ff; padding: 10px; color:#2d3436; border-radius: 10px;"><strong>Code and Data</strong></p>
-<p style="color:#2d3436;">The <code>code</code> directory contains the Python code used to generate the results in the paper. The <code>data</code> directory contains the datasets used in the analysis.</p>
+<p class="custom-paragraph">&nbsp;&nbsp;The <code>code</code> directory contains the Python code used to generate the results in the paper. The <code>data</code> directory contains the datasets used in the analysis.</p>
 
-<p id="reproducing-the-results" style="background-color:#a5c5ff; padding: 10px; color:#2d3436; border-radius: 10px;"><strong>Reproducing the Results</strong></p>
-<p style="color:#2d3436;">To reproduce the results in the paper, first clone the repository:</p>
+<p id="how_to_use" style="background-color:#a5c5ff; padding: 10px; color:#2d3436; border-radius: 10px;"><strong>How to use</strong></p>
+<p class="custom-paragraph">&nbsp;&nbsp;To use the code, first clone the repository:</p>
+</div>
+
+
+<p id="survival_analysis" style="background-color:#a5c5ff; padding: 10px; color:#2d3436; border-radius: 10px;"><strong>Reproducing the Results</strong></p>
+<p class="custom-paragraph">&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </div>
