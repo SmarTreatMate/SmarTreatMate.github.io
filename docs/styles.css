@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
 body{
   font-family: sans-serif;
 }
@@ -14,6 +16,7 @@ body{
 }
 
 .company-info {
+  font-family: 'Josefin Sans', sans-serif;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -38,12 +41,12 @@ body{
 }
 
 .table-of-contents a {
-  color: #74b9ff; /* The desired font color */
+  color: #0984e3; /* The desired font color */
   text-decoration: none; /* Removes the underline */
 }
 
 .table-of-contents a:hover {
-  color: #2c3e50; /* The desired font color when hovering */
+  color: #636e72; /* The desired font color when hovering */
 }
 
 .company-info {
