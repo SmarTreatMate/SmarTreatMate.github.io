@@ -70,16 +70,16 @@ li {
   
 
 .main-content {
-  padding-left: 340px;
+  padding-left: 330px;
   padding-right: 20px;
 }
 
 .separator {
   position: fixed;
-  top: 1px;
-  left: 310px;
+  top: 0px;
+  left: 300px;
   bottom: 0;
-  border-left: 2px solid #74b9ff;
+  border-left: 2px solid #5d5f5f;
 }
 
 .normal-paragraph {
