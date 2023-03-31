@@ -70,14 +70,14 @@ li {
   
 
 .main-content {
-  padding-left: 330px;
+  padding-left: 320px;
   padding-right: 20px;
 }
 
 .separator {
   position: fixed;
   top: 0px;
-  left: 300px;
+  left: 290px;
   bottom: 0;
   border-left: 2px solid #5d5f5f;
 }
