@@ -28,7 +28,7 @@ body{
 
 .table-of-contents {
   padding: 10px;
-  background-color: #a5c5ff;
+  background-color: #a1a3a3;
   border: 2px solid #5d5f5f;
   border-radius: 5px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -41,12 +41,12 @@ body{
 }
 
 .table-of-contents a {
-  color: #0984e3; /* The desired font color */
+  color: #2c3e50; /* The desired font color */
   text-decoration: none; /* Removes the underline */
 }
 
 .table-of-contents a:hover {
-  color: #636e72; /* The desired font color when hovering */
+  color: #0984e3; /* The desired font color when hovering */
 }
 
 .company-info {
