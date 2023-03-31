@@ -33,18 +33,6 @@
 .table-of-contents ul {
   padding-left: 20px;
 }
-.table-of-contents p {
-  font-weight: bold;
-}
-
-.table-of-contents li {
-  margin-bottom: 5px;
-}
-
-.table-of-contents a {
-  color: #74b9ff;
-  text-decoration: none;
-}
 
 .company-info {
   text-align: center;
