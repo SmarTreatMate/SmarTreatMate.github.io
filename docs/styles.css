@@ -67,7 +67,13 @@ body{
 li {
       text-align: justify;
 }
-  
+
+.content-header-box{
+  background-color:#a1a3a3; 
+  padding: 10px; 
+  color:#0984e3; 
+  border-radius: 10px;
+}
 
 .main-content {
   padding-left: 320px;
