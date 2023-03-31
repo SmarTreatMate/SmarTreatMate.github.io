@@ -44,7 +44,7 @@ This paper proposes a complementary improvement to survival analysis models by i
 The improvement holds for both the standard Cox proportional hazards model and the state-of-the-art Deep Survival Machines model. 
 Our results indicate the utility of geographic location-based public health features in survival analysis.</p>
 
-<p id="survival_analysis" style="background-color:#a5c5ff; padding: 10px; color:#2d3436; border-radius: 10px;"><strong>What is Survival Analysis?</strong></p>
+<p id="survival_analysis" class="content-header-box"><strong>What is Survival Analysis?</strong></p>
 <p class="custom-paragraph">&nbsp;&nbsp;The term "Survival Analysis" refers to a statistical methodology for the analysis of data, in which the outcome variable of interest is the probability of an <strong>Event</strong> occurring in each <strong>Time</strong> frame. By <strong>Time</strong>, we mean years, months, weeks, or days from the beginning of the follow-up of an individual until one of the desired events. Alternatively, time can refer to the age of an individual when an event occurs. Furthermore, by <strong>Event</strong>, we mean any change in the health status of an individual. This could be defined as disease incidence, relapse from remission, recovery (e.g., return to work), death, or any designated experience of interest that may happen to an individual <sup><a href="#SA">[1]</a></sup>.</p>
 <p class="normal-paragraph">
   This type of problem is distinct from a standard regression due to the <em>censoring of event times</em>. <strong>Censoring</strong> happens when we have some knowledge about an individual's survival period but do not know the precise survival time. As illustrated in Fig. <a href="#fig-censoring">1</a>, there are three types of censored data in any survival analysis study.
@@ -91,17 +91,17 @@ Our results indicate the utility of geographic location-based public health feat
 
 <p class="normal-paragraph">where λ<sub>0</sub>(t) is defined as the baseline hazard function. β is a vector in the same dimension with x<sub>i</sub>. The Cox model may be modified if there is a reason to anticipate that the baseline hazard follows a certain shape. In this instance, the baseline hazard λ<sub>0</sub>(t) is substituted with a provided function. For example, if the baseline hazard function is a Weibull function of time, then it results in the 'Weibull proportional hazard model'<sup><a href="#Weibull">[3]</a></sup><sup><a href="#kumar1994proportional">[4]</a></sup>.</p>
 
-<p id="code-and-data" style="background-color:#a5c5ff; padding: 10px; color:#2d3436; border-radius: 10px;"><strong>Code and Data</strong></p>
+<p id="code-and-data" class="content-header-box"><strong>Code and Data</strong></p>
 <p class="custom-paragraph">&nbsp;&nbsp;The <code>code</code> directory contains the Python code used to generate the results in the paper. The <code>data</code> directory contains the datasets used in the analysis.</p>
 
-<p id="how_to_use" style="background-color:#a5c5ff; padding: 10px; color:#2d3436; border-radius: 10px;"><strong>How to use</strong></p>
+<p id="how_to_use" class="content-header-box"><strong>How to use</strong></p>
 <p class="custom-paragraph">&nbsp;&nbsp;To use the code, first clone the repository:</p>
 
-<p id="citation" style="background-color:#a5c5ff; padding: 10px; color:#2d3436; border-radius: 10px;"><strong>Citation</strong></p>
+<p id="citation" class="content-header-box"><strong>Citation</strong></p>
 <p class="custom-paragraph">&nbsp;&nbsp;This project has been published in IEEE/ACM CHASE'23. The following is the citation:</p>
 
 
-<p id="references" style="background-color:#a5c5ff; padding: 10px; color:#2d3436; border-radius: 10px;"><strong>References</strong></p>
+<p id="references" class="content-header-box"><strong>References</strong></p>
   <ol>
     <li id="SA">Kleinbaum, David G., and Mitchel Klein. Survival analysis a self-learning text. Springer, 1996.</li>
     <li id="KM">Kaplan, E. L., and Paul Meier. “Nonparametric Estimation from Incomplete Observations.” Journal of the American Statistical Association 53, no. 282 (1958): 457–81. https://doi.org/10.2307/2281868.</li>
