@@ -80,7 +80,7 @@ li {
   color:#757575; /* Lighter shade of #2d3436 */
   border-radius: 10px;
   padding: 10px; 
-  margin-left: 50px; /* Add left padding for indent */
+  margin-left: 30px; /* Add left padding for indent */
 }
 
 .main-content {
@@ -100,6 +100,10 @@ li {
   color: #2d3436;
   padding-left: 10px;
   text-align: justify;
+}
+
+.sub-content-paragraph{
+  margin-left: 35px;
 }
   
 .custom-paragraph {
