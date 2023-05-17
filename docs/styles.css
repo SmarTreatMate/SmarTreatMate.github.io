@@ -103,7 +103,10 @@ li {
 }
 
 .sub-content-paragraph{
-  margin-left: 35px;
+  margin-left: 25px;
+  color: #2d3436;
+  padding-left: 10px;
+  text-align: justify;
 }
   
 .custom-paragraph {
