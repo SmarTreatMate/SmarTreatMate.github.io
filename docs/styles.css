@@ -80,7 +80,7 @@ li {
   color:#757575; /* Lighter shade of #2d3436 */
   border-radius: 10px;
   padding: 10px; 
-  padding-left: 50px; /* Add left padding for indent */
+  margin-left: 50px; /* Add left padding for indent */
 }
 
 .main-content {
