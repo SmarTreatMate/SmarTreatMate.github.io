@@ -2,132 +2,132 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SmarTreatMate</title>
-    <style>
-        body {
-            background-color: #F5F5F5;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-        .logo {
-            width: 277px;
-            height: 299px;
-            background-color: #9EA7B8;
-            border: 3px solid #324D5C;
-            border-radius: 5px;
-        }
-        .boxes {
-            display: flex;
-            justify-content: space-around;
-            width: 100%;
-            margin-top: 15px;
-        }
-        .box {
-            width: 30%;
-            background-color: #9EA7B8;
-            border: 3px solid #324D5C;
-            border-radius: 5px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            padding: 15px;
-            box-sizing: border-box;
-        }
-        .box h3 {
-            color: #000000;
-            margin-bottom: 10px;
-        }
-        .box p {
-            text-align: justify;
-            text-justify: inter-word;
-        }
-        .wide-box {
-            width: 80%;
-            height: 150px;
-            background-color: #9EA7B8;
-            border: 3px solid #324D5C;
-            border-radius: 5px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-top: 10px;
-        }
-        a {
-            color: #000000;
-            text-decoration: none;
-        }
-        .contact-us {
-        width: 400px;
-        height: 300px;
-        background-color: #9EA7B8;
-        border: 3px solid #324D5C;
-        border-radius: 5px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding: 5px;
-        box-sizing: border-box;
-        margin-top: 5px;
-    }
-    .contact-us h2 {
-        color: #324D5C;
-        margin-bottom: 5px;
-    }
-    .contact-us p {
-        text-align: justify;
-        text-justify: inter-word;
-    }
-    .contact-us ul {
-        list-style-type: none;
-        padding: 0;
-    }
-    .contact-us li {
-        margin-bottom: 5px;
-    }
-    .contact-us a {
-        color: #324D5C;
-        text-decoration: none;
-    }
-    </style>
+    <link rel="stylesheet" href="styles.css">
+    <!-- the following two lines are for Math environment. In order to show equations using Latex syntax. -->
+    <SCRIPT SRC='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></SCRIPT>
+    <SCRIPT>MathJax.Hub.Config({ tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}})</SCRIPT>
 </head>
+    
 <body>
-    <div class="logo"><img src="https://raw.githubusercontent.com/SmarTreatMate/SmarTreatMate.github.io/main/docs/STM.png" alt="SmarTreatMate" class="logo"></div>
-    <div class="boxes">
-        <div class="box">
-            <h3>Who we are?</h3>
-            <p>SmarTreatMate is a healthcare technology company dedicated to improving cancer treatment by leveraging the power of artificial intelligence (AI) and machine learning (ML). We are a team of passionate professionals focused on patient-centered design, collaborating with cancer centers, academic institutions, and research organizations to revolutionize cancer care.</p>
-        </div>
-        <div class="box">
-            <h3>What we do?</h3>
-            <p>We develop AI and ML-driven tools that assist physicians in making more accurate decisions for cancer treatment. Our technology analyzes vast amounts of patient data to identify patterns and insights that may not be apparent to the human eye, enabling healthcare providers to make better-informed treatment decisions. We also help identify potential side effects and drug interactions to enhance patient safety and reduce the risk of adverse events.</p>
-        </div>
-                <div class="box">
-            <h3>Why you should choose us?</h3>
-            <p>Choose SmarTreatMate because we are dedicated to improving patient outcomes and reducing healthcare costs by creating innovative AI and ML-based solutions. Our strong focus on patient-centered design ensures that our technology meets the needs and preferences of cancer patients and their families. By working closely with industry experts and leading institutions, we continuously advance the development and integration of AI and ML tools in cancer research and treatment, ultimately empowering healthcare providers and enhancing the lives of patients.</p>
-        </div>
+  <div class="sidebar">
+    <div class="company-info">
+      <img src="https://raw.githubusercontent.com/SmarTreatMate/SmarTreatMate.github.io/main/docs/STM.png" alt="SmarTreatMate" class="logo">
+      <h1>SmarTreatMate</h1>
+      <p>Smarter decisions, better treatments, faster healing</p>
     </div>
-    <div class="wide-box">
-        <a href="rep.html">Click here to access our latest findings and codes through our Github webpage!</a>
-    </div>
-    <div class="contact-us">
-    <h2>Contact Us</h2>
-    <p>If you have any questions or would like to get in touch with our team, please feel free to contact us through the following:</p>
-    <ul>
-        <li>Email: <a href="mailto:nseidi@mst.edu">nseidi@mst.edu</a></li>
-        <li>Phone: +1 (573) 647-3506</li>
-        <li>Address: 104C Computer Science Bldg.,</li>
-        <li>500 W. 15th St. Rolla, MO 65409, USA</li>
-    </ul>
+
+      
+<div class="table-of-contents">
+ <p>Table of Contents</p>
+  <ul>
+    <li><a href="#abstract">Abstract</a></li>
+    <li><a href="#survival_analysis">What is Survival Analysis?</a></li>
+    <li><a href="#code-and-data">Code</a>
+        <ul>
+            <li><a href="#StateESR">StateESR</a></li>
+            <li><a href="#CoxPH">CoxPH Model</a></li>
+            <li><a href="#DSM">DSM Model</a></li>
+            <li><a href="#t-Test">t-Test</a></li>
+        </ul>
+    </li>
+    <li><a href="#citation">Citation</a></li>
+    <li><a href="#references">References</a></li>
+  </ul>
+</div>
+    </div>    
+    
+<div class="separator"></div>
+
+<div class="main-content">
+<p id="name" class="content-header-box"><strong>Using Geographic Location-Based Public Health Features in Survival Analysis</strong></p>
+
+<p class="custom-paragraph">&nbsp;&nbsp;This repository contains the code and data for the paper titled "Using Geographic Location-Based Public Health Features in Survival Analysis" by Navid Seidi, Ardhendu Tripathy, and Sajal Das.</p>
+
+
+<p id="abstract" class="content-header-box"><strong>Abstract</strong></p>
+<p class="custom-paragraph">&nbsp;&nbsp;Time elapsed till an event of interest is often modeled using the survival analysis methodology, which estimates a survival score based on the input features. There is a resurgence of interest in developing more accurate prediction models for time-to-event prediction in personalized healthcare using modern tools such as neural networks. Higher quality features and more frequent observations improve the predictions for a patient, however, the impact of including a patient's geographic location-based public health statistics on individual predictions has not been studied.
+This paper proposes a complementary improvement to survival analysis models by incorporating public health statistics in the input features. We show that including geographic location-based public health information results in a statistically significant improvement in the concordance index evaluated on the Surveillance, Epidemiology, and End Results (SEER) dataset containing nationwide cancer incidence data. 
+The improvement holds for both the standard Cox proportional hazards model and the state-of-the-art Deep Survival Machines model. 
+Our results indicate the utility of geographic location-based public health features in survival analysis.</p>
+
+<p id="survival_analysis" class="content-header-box"><strong>What is Survival Analysis?</strong></p>
+<p class="custom-paragraph">&nbsp;&nbsp;The term "Survival Analysis" refers to a statistical methodology for the analysis of data, in which the outcome variable of interest is the probability of an <strong>Event</strong> occurring in each <strong>Time</strong> frame. By <strong>Time</strong>, we mean years, months, weeks, or days from the beginning of the follow-up of an individual until one of the desired events. Alternatively, time can refer to the age of an individual when an event occurs. Furthermore, by <strong>Event</strong>, we mean any change in the health status of an individual. This could be defined as disease incidence, relapse from remission, recovery (e.g., return to work), death, or any designated experience of interest that may happen to an individual <sup><a href="#SA">[1]</a></sup>.</p>
+<p class="normal-paragraph">
+  This type of problem is distinct from a standard regression due to the <em>censoring of event times</em>. <strong>Censoring</strong> happens when we have some knowledge about an individual's survival period but do not know the precise survival time. As illustrated in Fig. <a href="#fig-censoring">1</a>, there are three types of censored data in any survival analysis study.
+<ul>
+  <li><strong>Right-censored:</strong> The event did not occur during the study, or the actual event time is equal to or greater than the observed survival time (p<sub>2</sub>, p<sub>3</sub> and p<sub>4</sub> in Fig. <a href="#fig-censoring">1</a>).</li>
+  <li><strong>Left-censored:</strong> In some cases, "true survival time is less than or equal to the observed survival time" <sup><a href="#SA">[1]</a></sup>. It indicates that a person who is left-censored at time t has experienced an event between the beginning of time (time 0) and time t, but the exact timing of the event is unknown. In Fig. <a href="#fig-censoring">1</a> the event has been observed for p<sub>5</sub>, but the accurate time is not clear. The only known fact is that the event time is less than the time of ending the study.</li>
+  <li><strong>Interval-censored:</strong> p<sub>6</sub> in Fig. <a href="#fig-censoring">1</a> has left the study sometime before the ending time and rejoined it again. Thus, it is impossible to make a comprehensive observation, and the actual event time is within a given time interval.</li>
+</ul>
+</p>
+
+<div class="img-style">
+<figure>
+<img id="fig-censoring" src="https://raw.githubusercontent.com/SmarTreatMate/SmarTreatMate.github.io/main/docs/survival_analysis.png" alt="A description of the image" width="650" height="325">
+<figcaption>Fig. 1. Various types of censoring in survival analysis.</figcaption>
+</figure>
+</div>
+<p class="normal-paragraph">For the analysis, we start by describing the Survival Function; the probability that a person will outlive a given period represented by S(t) as stated in equation (1). Moreover, equation (2) shows the Hazard Function, λ(t), which is the instantaneous probability per unit of the time that the event will occur:</p>
+
+<p class="normal-paragraph"><em>Equation 1:</em>
+   $$S(t) = Pr(T>t)$$
+</p>
+
+<p class="normal-paragraph"><em>Equation 2:</em>
+<pre>
+    λ(t) = lim(δ → 0) [Pr(t ≤ T < t + δ | T ≥ t) / δ]
+</pre>
+</p>
+
+<p class="normal-paragraph">Given that a person has survived up to time t, the hazard function is the probability that they will not survive an additional tiny period of time, δ. It indicates that those with a higher hazard value are at a greater risk of experiencing the event.</p>
+
+<p class="normal-paragraph">It is possible to construct these functions based on the most recent information regarding event occurrences, the event time for each individual in the datasets, and the related attributes associated with each unique patient. The above features are referred to as covariates and can be either Categorical or Numerical.</p>
+
+<p class="normal-paragraph">Although the survival function is theoretically a smooth curve, it is most commonly approximated using the Kaplan–Meier (K.M.) curve<sup><a href="#KM">[2]</a></sup> because of its simplicity. The Kaplan-Meier curve is a non-parametric method used to estimate the survival probability of a population over time based on censored data. It is commonly used to illustrate the estimated survival probability over time for a population or group of individuals. Kaplan–Meier curve is the most effective model whenever the covariate is categorical (e.g., medication vs. placebo) or when the covariate takes a small number of values (e.g., drug dosages 0, 20, 50, and 100 mg/day) that may be considered categorical. The K.M. curve is not as practical when dealing with quantitative factors such as gene expression, white blood cell count, or age. Cox proportional hazards regression analysis is an alternate approach when dealing with quantitative predictor variables. Moreover, the CoxPH model may be used with categorical predictor variables, which can be represented as dummy variables or as a binary indicator (0,1).</p>
+
+<p class="normal-paragraph">Let x<sub>i</sub> denote the vector features for individual i in the dataset. The hazard function for the Cox proportional hazards model is:</p>
+
+<p class="normal-paragraph"><em>Equation 3:</em>
+<pre>
+    λ(t) = λ<sub>0</sub>(t) exp(β<sup>T</sup> x<sub>i</sub>)
+</pre>
+</p>
+
+<p class="normal-paragraph">where λ<sub>0</sub>(t) is defined as the baseline hazard function. β is a vector in the same dimension with x<sub>i</sub>. The Cox model may be modified if there is a reason to anticipate that the baseline hazard follows a certain shape. In this instance, the baseline hazard λ<sub>0</sub>(t) is substituted with a provided function. For example, if the baseline hazard function is a Weibull function of time, then it results in the 'Weibull proportional hazard model'<sup><a href="#Weibull">[3]</a></sup><sup><a href="#kumar1994proportional">[4]</a></sup>.</p>
+
+<p id="code-and-data" class="content-header-box"><strong>Code</strong></p>
+<p class="custom-paragraph">&nbsp;&nbsp;The <code>code</code> directory contains the Python code used to generate the results in the paper.</p>
+
+<p id="StateESR" class="sub-content-header-box"><strong>StateESR</strong></p>
+<p class="sub-content-paragraph">&nbsp;&nbsp;The following code contains the code for calculating StateESR.</p>
+<a style="margin-left: 50px;" href="https://raw.githubusercontent.com/SmarTreatMate/SmarTreatMate.github.io/main/docs/StateESR.py" download="StateESR.py">Click here to download the file.<a/>
+<p id="CoxPH" class="sub-content-header-box"><strong>CoxPH Model</strong></p>
+<p class="sub-content-paragraph">&nbsp;&nbsp;The following code contains the code for implementing CoxPH Model on datasets.</p>
+<a style="margin-left: 50px;" href="https://raw.githubusercontent.com/SmarTreatMate/SmarTreatMate.github.io/main/docs/CoxPH.ipynb" download="StateESR.py">Click here to download the file.<a/>
+    
+<p id="DSM" class="sub-content-header-box"><strong>DSM Model</strong></p>
+<p class="sub-content-paragraph">&nbsp;&nbsp;The following code contains the code for implementing Deep Survival Machines (DSM) Model on datasets.</p>
+<a style="margin-left: 50px;" href="https://raw.githubusercontent.com/SmarTreatMate/SmarTreatMate.github.io/main/docs/DSM.ipynb" download="StateESR.py">Click here to download the file.<a/>
+    
+<p id="t-Test" class="sub-content-header-box"><strong>t-Test</strong></p>
+<p class="sub-content-paragraph">&nbsp;&nbsp;The following code contains the code for splitting each dataset into 30 sub-datasets and calculating p-value.</p>
+<a style="margin-left: 50px;" href="https://raw.githubusercontent.com/SmarTreatMate/SmarTreatMate.github.io/main/docs/t-test.ipynb" download="StateESR.py">Click here to download the file.<a/>
+
+<p id="citation" class="content-header-box"><strong>Citation</strong></p>
+<p class="custom-paragraph">&nbsp;&nbsp;This project has been published in IEEE/ACM CHASE'23. The following is the citation:</p>
+
+
+<p id="references" class="content-header-box"><strong>References</strong></p>
+  <ol>
+    <li id="SA">Kleinbaum, David G., and Mitchel Klein. Survival analysis a self-learning text. Springer, 1996.</li>
+    <li id="KM">Kaplan, E. L., and Paul Meier. “Nonparametric Estimation from Incomplete Observations.” Journal of the American Statistical Association 53, no. 282 (1958): 457–81. https://doi.org/10.2307/2281868.</li>
+    <li id="Weibull">Barrett, James. "Weibull-Cox proportional hazard model." Institute of Mathmatical and Molecular Biomedicine (2014): 1-7.</li>
+    <li id="kumar1994proportional">Kumar, Dhananjay, and Bengt Klefsjö. "Proportional hazards model: a review." Reliability Engineering & System Safety 44, no. 2 (1994): 177-188.</li>
+    <li id="ref2">Author B. (Year). Title of the book. Publisher.</li>
+  </ol>
 </div>
 </body>
 </html>
