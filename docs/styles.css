@@ -3,11 +3,12 @@
 body{
   font-family: sans-serif;
 }
+
 .sidebar {
   position: fixed;
   top: 0;
   left: 0;
-  width: 250px;
+  width: 100%; /* Full width on small screens */
   padding: 20px;
   background-color: #dad7d8;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
@@ -22,8 +23,9 @@ body{
 }
 
 .logo {
-  width: 200px;
+  width: 100%;
   height: auto;
+  max-width: 200px; /* Limit maximum width on large screens */
 }
 
 .table-of-contents {
@@ -140,4 +142,69 @@ pre {
             padding: 1em 1em;
             display: block;
             word-wrap: break-word;
+}
+/* For mobile devices */
+@media (max-width: 767px) {
+  .sidebar {
+    width: 100%;
+    position: relative;
+    height: auto;
+  }
+
+  .main-content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .separator {
+    display: none;
+  }
+
+  .logo {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+/* For tablet devices */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .sidebar {
+    width: 30%;
+  }
+
+  .main-content {
+    padding-left: 40%;
+    padding-right: 5%;
+  }
+
+  .separator {
+    left: 35%;
+  }
+
+  .logo {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+/* For desktop devices and above */
+@media (min-width: 1024px) {
+  .sidebar {
+    width: 250px;
+  }
+
+  .main-content {
+    padding-left: 320px;
+    padding-right: 20px;
+  }
+
+  .separator {
+    left: 290px;
+  }
+
+  .logo {
+    width: 200px;
+  }
 }
