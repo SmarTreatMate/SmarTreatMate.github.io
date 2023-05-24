@@ -165,6 +165,10 @@ pre {
     display: block;
     margin: 0 auto;
   }
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 /* For tablet devices */
@@ -187,6 +191,10 @@ pre {
     display: block;
     margin: 0 auto;
   }
+  img {
+    width: 75%;
+    height: auto;
+  }
 }
 
 /* For desktop devices and above */
@@ -206,5 +214,9 @@ pre {
 
   .logo {
     width: 200px;
+  }
+  img {
+    width: 50%;
+    height: auto;
   }
 }
