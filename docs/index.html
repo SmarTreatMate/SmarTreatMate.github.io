@@ -44,7 +44,7 @@
 <div class="main-content">
 <p id="name" class="content-header-box"><strong>Using Geographic Location-Based Public Health Features in Survival Analysis</strong></p>
 
-<p class="custom-paragraph">&nbsp;&nbsp;This repository contains the code and data for the paper titled "Using Geographic Location-Based Public Health Features in Survival Analysis" by Navid Seidi, Ardhendu Tripathy, and Sajal Das.</p>
+<p class="custom-paragraph">&nbsp;&nbsp;This repository contains the code and data for the paper titled "Using Geographic Location-Based Public Health Features in Survival Analysis" by Navid Seidi, Ardhendu Tripathy, and Sajal Das<sup><a href="#STM">[1]</a></sup>.</p>
 
 
 <p id="abstract" class="content-header-box"><strong>Abstract</strong></p>
@@ -54,7 +54,7 @@ The improvement holds for both the standard Cox proportional hazards model and t
 Our results indicate the utility of geographic location-based public health features in survival analysis.</p>
 
 <p id="survival_analysis" class="content-header-box"><strong>What is Survival Analysis?</strong></p>
-<p class="custom-paragraph">&nbsp;&nbsp;The term "Survival Analysis" refers to a statistical methodology for the analysis of data, in which the outcome variable of interest is the probability of an <strong>Event</strong> occurring in each <strong>Time</strong> frame. By <strong>Time</strong>, we mean years, months, weeks, or days from the beginning of the follow-up of an individual until one of the desired events. Alternatively, time can refer to the age of an individual when an event occurs. Furthermore, by <strong>Event</strong>, we mean any change in the health status of an individual. This could be defined as disease incidence, relapse from remission, recovery (e.g., return to work), death, or any designated experience of interest that may happen to an individual <sup><a href="#SA">[1]</a></sup>.</p>
+<p class="custom-paragraph">&nbsp;&nbsp;The term "Survival Analysis" refers to a statistical methodology for the analysis of data, in which the outcome variable of interest is the probability of an <strong>Event</strong> occurring in each <strong>Time</strong> frame. By <strong>Time</strong>, we mean years, months, weeks, or days from the beginning of the follow-up of an individual until one of the desired events. Alternatively, time can refer to the age of an individual when an event occurs. Furthermore, by <strong>Event</strong>, we mean any change in the health status of an individual. This could be defined as disease incidence, relapse from remission, recovery (e.g., return to work), death, or any designated experience of interest that may happen to an individual <sup><a href="#SA">[2]</a></sup>.</p>
 <p class="normal-paragraph">
   This type of problem is distinct from a standard regression due to the <em>censoring of event times</em>. <strong>Censoring</strong> happens when we have some knowledge about an individual's survival period but do not know the precise survival time. As illustrated in Fig. <a href="#fig-censoring">1</a>, there are three types of censored data in any survival analysis study.
 <ul>
@@ -86,7 +86,7 @@ Our results indicate the utility of geographic location-based public health feat
 
 <p class="normal-paragraph">It is possible to construct these functions based on the most recent information regarding event occurrences, the event time for each individual in the datasets, and the related attributes associated with each unique patient. The above features are referred to as covariates and can be either Categorical or Numerical.</p>
 
-<p class="normal-paragraph">Although the survival function is theoretically a smooth curve, it is most commonly approximated using the Kaplan–Meier (K.M.) curve<sup><a href="#KM">[2]</a></sup> because of its simplicity. The Kaplan-Meier curve is a non-parametric method used to estimate the survival probability of a population over time based on censored data. It is commonly used to illustrate the estimated survival probability over time for a population or group of individuals. Kaplan–Meier curve is the most effective model whenever the covariate is categorical (e.g., medication vs. placebo) or when the covariate takes a small number of values (e.g., drug dosages 0, 20, 50, and 100 mg/day) that may be considered categorical. The K.M. curve is not as practical when dealing with quantitative factors such as gene expression, white blood cell count, or age. Cox proportional hazards regression analysis is an alternate approach when dealing with quantitative predictor variables. Moreover, the CoxPH model may be used with categorical predictor variables, which can be represented as dummy variables or as a binary indicator (0,1).</p>
+<p class="normal-paragraph">Although the survival function is theoretically a smooth curve, it is most commonly approximated using the Kaplan–Meier (K.M.) curve<sup><a href="#KM">[3]</a></sup> because of its simplicity. The Kaplan-Meier curve is a non-parametric method used to estimate the survival probability of a population over time based on censored data. It is commonly used to illustrate the estimated survival probability over time for a population or group of individuals. Kaplan–Meier curve is the most effective model whenever the covariate is categorical (e.g., medication vs. placebo) or when the covariate takes a small number of values (e.g., drug dosages 0, 20, 50, and 100 mg/day) that may be considered categorical. The K.M. curve is not as practical when dealing with quantitative factors such as gene expression, white blood cell count, or age. Cox proportional hazards regression analysis is an alternate approach when dealing with quantitative predictor variables. Moreover, the CoxPH model may be used with categorical predictor variables, which can be represented as dummy variables or as a binary indicator (0,1).</p>
 
 <p class="normal-paragraph">Let x<sub>i</sub> denote the vector features for individual i in the dataset. The hazard function for the Cox proportional hazards model is:</p>
 
@@ -96,7 +96,7 @@ Our results indicate the utility of geographic location-based public health feat
 </pre>
 </p>
 
-<p class="normal-paragraph">where λ<sub>0</sub>(t) is defined as the baseline hazard function. β is a vector in the same dimension with x<sub>i</sub>. The Cox model may be modified if there is a reason to anticipate that the baseline hazard follows a certain shape. In this instance, the baseline hazard λ<sub>0</sub>(t) is substituted with a provided function. For example, if the baseline hazard function is a Weibull function of time, then it results in the 'Weibull proportional hazard model'<sup><a href="#Weibull">[3]</a></sup><sup><a href="#kumar1994proportional">[4]</a></sup>.</p>
+<p class="normal-paragraph">where λ<sub>0</sub>(t) is defined as the baseline hazard function. β is a vector in the same dimension with x<sub>i</sub>. The Cox model may be modified if there is a reason to anticipate that the baseline hazard follows a certain shape. In this instance, the baseline hazard λ<sub>0</sub>(t) is substituted with a provided function. For example, if the baseline hazard function is a Weibull function of time, then it results in the 'Weibull proportional hazard model'<sup><a href="#Weibull">[4]</a></sup><sup><a href="#kumar1994proportional">[5]</a></sup>.</p>
 
 <p id="code-and-data" class="content-header-box"><strong>Code</strong></p>
 <p class="custom-paragraph">&nbsp;&nbsp;The <code>code</code> directory contains the Python code used to generate the results in the paper.</p>
@@ -122,11 +122,12 @@ Our results indicate the utility of geographic location-based public health feat
 
 <p id="references" class="content-header-box"><strong>References</strong></p>
   <ol>
+    <li id="STM">N. Seidi, A. Tripathy and S. Das, "Using Geographic Location-based Public Health Features in Survival Analysis," in 2023 IEEE/ACM Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE), Orlando, FL, USA, 2023 pp. 80-91.
+doi: 10.1145/3580252.3586972</li>
     <li id="SA">Kleinbaum, David G., and Mitchel Klein. Survival analysis a self-learning text. Springer, 1996.</li>
     <li id="KM">Kaplan, E. L., and Paul Meier. “Nonparametric Estimation from Incomplete Observations.” Journal of the American Statistical Association 53, no. 282 (1958): 457–81. https://doi.org/10.2307/2281868.</li>
     <li id="Weibull">Barrett, James. "Weibull-Cox proportional hazard model." Institute of Mathmatical and Molecular Biomedicine (2014): 1-7.</li>
     <li id="kumar1994proportional">Kumar, Dhananjay, and Bengt Klefsjö. "Proportional hazards model: a review." Reliability Engineering & System Safety 44, no. 2 (1994): 177-188.</li>
-    <li id="ref2">Author B. (Year). Title of the book. Publisher.</li>
   </ol>
 </div>
 </body>
